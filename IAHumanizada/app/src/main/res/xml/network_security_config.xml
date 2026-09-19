@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Esta app habla con un servidor Ollama en red local (Tailscale/Wi-Fi), no
+    con servicios en internet, por eso se permite tráfico sin cifrar (HTTP)
+    de forma general vía android:usesCleartextTraffic="true" en el Manifest.
+
+    (Antes este archivo tenía una entrada bloqueando HTTP hacia
+    api.anthropic.com, un resto de otra plantilla: esta app nunca llama a
+    Anthropic, así que esa regla no hacía nada más que confundir.)
+-->
+<network-security-config>
+</network-security-config>
