@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Pato original de Ducky, dibujado a mano con formas vectoriales simples
+    (dos círculos para cuerpo/cabeza, un triángulo para el pico, un ala y un
+    ojo). Todo dentro de la "zona segura" del icono adaptativo (~66dp de
+    diámetro centrado) para que no se recorte en ningún launcher.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Cuerpo -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M32,68 a22,22 0 1,0 44,0 a22,22 0 1,0 -44,0" />
+
+    <!-- Ala (sombreado sutil sobre el cuerpo) -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M40,60 Q52,58 47,80 Q36,77 40,60 Z" />
+
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M51,40 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+
+    <!-- Pico -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M78,37 L96,41.5 L78,49 Z" />
+
+    <!-- Ojo -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M69.5,35.5 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+</vector>
